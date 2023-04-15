@@ -1,0 +1,68 @@
+Improved RegisterLSP(x32) v2.3.6.3 2010-2015(c)
+
+System and software information
+-------------------------------
+
+Licensed to: Astrill
+Current date and time: 20/06/2022 21:26:20
+Parameters to parse are: -b -w -d ASProxy.dll
+Process full path: C:\Program Files (x86)\Astrill\RegisterLSP.exe
+Current directory is: C:\Program Files (x86)\Astrill
+OS: Windows 8 64bit
+
+-------------------------------
+
+Checking if LSP: ASProxy.dll exists
+Checking if LSP is installed
+LSP not found, will resume normal installation
+Scenario file: C:\Program Files (x86)\Astrill\RegisterLsp.ini loaded OK
+Trying to get LSP extended info
+Info received, IP6: 1, Categories: 1
+Trying to copy LSP to: C:\Windows\system32\ASProxy.dll
+Copy success!
+Scenario file instruction is: none
+No LSP installed over TCP or UDP, install will continue regularly
+LSP name is 'ASProxy'
+Installed: [1028] ASProxy
+Installed: [1029] ASProxy over [MSAFD Tcpip [TCP/IP]]
+Installed: [1030] ASProxy over [MSAFD Tcpip [UDP/IP]]
+Installed: [1031] ASProxy over [MSAFD Tcpip [TCP/IPv6]]
+Installed: [1032] ASProxy over [MSAFD Tcpip [UDP/IPv6]]
+Reordering 32-bit Winsock catalog...
+
+
+Exiting with error code: 0 which means everything went OK
+Improved RegisterLSP(x64) v2.3.6.3 2010-2015(c)
+
+System and software information
+-------------------------------
+
+Licensed to: Astrill
+Current date and time: 20/06/2022 21:26:20
+Parameters to parse are: -b -w -d ASProxy64.dll
+Process full path: C:\Program Files (x86)\Astrill\RegisterLSP64.exe
+Current directory is: C:\Program Files (x86)\Astrill
+OS: Windows 8 64bit
+
+-------------------------------
+
+Checking if LSP: ASProxy64.dll exists
+Checking if LSP is installed
+LSP not found, will resume normal installation
+Scenario file: C:\Program Files (x86)\Astrill\RegisterLsp.ini loaded OK
+Trying to get LSP extended info
+Info received, IP6: 1, Categories: 1
+Trying to copy LSP to: C:\Windows\system32\ASProxy64.dll
+Copy success!
+Scenario file instruction is: none
+No LSP installed over TCP or UDP, install will continue regularly
+LSP name is 'ASProxy'
+Installed: [1033] ASProxy
+Installed: [1034] ASProxy over [MSAFD Tcpip [TCP/IP]]
+Installed: [1035] ASProxy over [MSAFD Tcpip [UDP/IP]]
+Installed: [1036] ASProxy over [MSAFD Tcpip [TCP/IPv6]]
+Installed: [1037] ASProxy over [MSAFD Tcpip [UDP/IPv6]]
+Reordering 64-bit Winsock catalog...
+
+
+Exiting with error code: 0 which means everything went OK

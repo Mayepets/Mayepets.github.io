@@ -1,720 +1,810 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <!-- Author -->
-    <meta name="author" content="Themes Industry">
-    <!-- Description -->
-    <meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with ready home page demos.">
-    <!-- Page Title -->
-    <title>Agency Hotspot  | MegaOne HTML5 Template</title>
-    <!-- Favicon -->
-    <link href="static/image/favicon.ico" rel="icon">
-    <!-- Bundle -->
-    <link rel="stylesheet" href="static/css/bundle.min.css">
-    <!-- Plugin Css -->
-    <link href="static/css/LineIcons.min.css" rel="stylesheet">
-    <link href="static/css/jquery.fancybox.min.css" rel="stylesheet">
-    <link href="static/css/owl.carousel.min.css" rel="stylesheet">
-    <link href="static/css/wow.css" rel="stylesheet">
-    <!-- Style Sheet -->
-    <link href="static/css/tootik.min.css" rel="stylesheet">
-    <link href="static/css/line-awesome.min.css" rel="stylesheet">
-    <link href="static/css/jquery.pagepiling.css" rel="stylesheet">
-    <link href="static/css/style.css" rel="stylesheet">
+<title>Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="keywords" content="" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- portfolio -->	
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="all">
+<!-- //portfolio -->	
+<!-- font -->
+<link href="http://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script> 
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<![endif]-->
 </head>
+<body>
+	<!-- banner -->
+	<div class="banner">
+		<div class="agileinfo-dot">
+			<div class="agileits-logo">
+				<h1><a href="index.html">Games <span>Hub</span></a></h1>
+			</div>
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top-info">
+						<nav class="navbar navbar-default">
+							<!-- Brand and toggle get grouped for better mobile display -->
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
+							<!-- Collect the nav links, forms, and other content for toggling -->
+							<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+								<nav>
+									<ul class="nav navbar-nav">
+										<li class="active"><a href="index.html">Home</a></li>
+										<li><a href="#about" class="scroll">About</a></li>
+										<li><a href="#gallery" class="scroll">Latest Games</a></li>
+										<li><a href="#team" class="scroll">Team</a></li>
+										<li><a href="#blog" class="scroll">Blog</a></li>
+										<li><a href="#mail" class="scroll">Mail Us</a></li>
+									</ul>
+								</nav>
+							</div>
+							<!-- /.navbar-collapse -->
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="w3layouts-banner-info">
+				<div class="container">
+					<div class="w3layouts-banner-slider">
+						<div class="w3layouts-banner-top-slider">
+							<div class="slider">
+								<div class="callbacks_container">
+									<ul class="rslides callbacks callbacks1" id="slider4">
+										<li>
+											<div class="banner_text">
+												<h3>Lorem ipsum</h3>
+												<p>In volutpat metus quis velit malesuada</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												</div>
+											</div>
+										</li>
+										<li>
+											<div class="banner_text">
+												<h3>Nam semper</h3>
+												<p>Nam imperdiet tellus nec enim tempus</p>
+												<div class="w3-button">
+													<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<div class="clearfix"> </div>
+								<script src="js/responsiveslides.min.js"></script>
+								<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider4").responsiveSlides({
+										auto: true,
+										pager:true,
+										nav:true,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+								 </script>
+								<!--banner Slider starts Here-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- about -->
+	<div class="about" id="about"> 
+		<div class="container"> 
+			<div class="welcome">
+				<div class="agileits-title"> 
+					<h2>Welcome</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet</p>
+				</div>
+			</div>
+			<div class="about-w3lsrow"> 
+				<div class="col-md-7 col-sm-7 w3about-img"> 
+					<div class="w3about-text"> 
+						<h5 class="w3l-subtitle">- About Us</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at placerat ante. Praesent nulla nunc, pretium dapibus efficitur in, auctor eget elit. Lorem ipsum dolor sit amet</p>
+					</div>
+				</div> 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //about --> 
+	<!-- markets -->
+	<div class="markets" id="markets">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Services</h3>
+			</div>
+			<div class="markets-grids">
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-gamepad" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Suspendisse</h5>
+							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-trophy" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Aliquam</h5>
+							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-user" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Consectetur</h5>
+							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Bibendum</h5>
+							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-comments" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Vestibulum</h5>
+							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="col-md-4 w3ls-markets-grid">
+					<div class="agileits-icon-grid">
+						<div class="icon-left">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="icon-right">
+							<h5>Fermentum</h5>
+							<p>Phasellus dapibus felis elit, sed accumsan arcu gravida vitae. Nullam aliquam erat at lectus ullamcorper, nec interdum neque hendrerit.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //markets -->
+	<!-- portfolio -->
+	<div class="portfolio" id="gallery">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Our Games</h3> 
+			</div>
+			<ul class="simplefilter w3layouts agileits">
+				<li class="active w3layouts agileits" data-filter="all">All</li>
+				<li class="w3layouts agileits" data-filter="1">Category1</li>
+				<li class="w3layouts agileits" data-filter="2">Category2</li>
+				<li class="w3layouts agileits" data-filter="3">Category3</li>
+				<li class="w3layouts agileits" data-filter="4">Category4</li>
+				<li class="w3layouts agileits" data-filter="5">Category5</li>
+			</ul>
 
-<!-- Preloader -->
-<div class="loader" id="loader-fade">
-    <div class="linear-activity">
-        <div class="indeterminate"></div>
-    </div>
-</div>
-<!-- Preloader End -->
+			<div class="filtr-container w3layouts agileits">
 
-<!-- START HEADER -->
-<div class="wrap_container cursor-light">
-    <div class="main_container">
-        <div class="side_nav">
-            <div class="my-sticky-nav">
-                <div class="side_menu">
-                    <a class="brand-logo link" href="">
-                        <img src="static/picture/logo.png" alt="logo" style="height: 87%;width: 87%;">
-                    </a>
-                    <div id="my_tog" class="my_tog link" onmouseover="my_click();">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <div>
-                        <a class="brand-logo sticky-logo link" href="">
-                            <img src="static/picture/logo.png" alt="logo" style="height: 80%;width: 80%;">
-                        </a>
-                    </div>
-                    <!-- Sticky Nav -->
-                    <nav class="side-nav-menu">
-                        <ul class="nav-menu nav-fill" id="menu">
-                            <li class="nav-item">
-                                <a data-menuanchor="home-banner" class="nav-link link active line" href="#home-banner">Home </a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-menuanchor="about" class="nav-link link line" href="#about">About Agency</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-menuanchor="team" class="nav-link link line" href="#team">Our Team</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-menuanchor="portfolio" class="nav-link link line" href="#portfolio">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-menuanchor="blog" class="nav-link link line" href="#blog">Our Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a data-menuanchor="contact" class="nav-link link line" href="#contact">Contact</a></li>
-                        </ul>
-                        <div class="slider-social side-icons">
-                            <ul class="list-unstyled">
-                                <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-                                <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
-                        <p class="rites-res link"><span style="color: #000000;">© 2020 MegaOne.</span> Made with love by Themes Industry</p>
-                    </nav>
-                </div>
-            </div>
-        </div>
-        <!-- Nav-Bar -->
-        <header id="home">
-            <nav class="navbar navbar-light bg-light cursor-light d-md-none">
-                <div class="my_nav_tog d-block d-md-none">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-                <a class="navbar-brand ml-auto" href="">
-                    <img src="static/picture/logo.png" alt="Logo" style="height: 100%;width: 100%;">
-                </a>
-            </nav>
-            <div class="broad">
-                <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-                <nav class="side-nav-menu">
-                    <a class="brand-logo" href="">
-                        <img src="static/picture/logo.png" alt="Logo" style="height: 90%;width: 90%;">
-                    </a>
-                    <ul class="nav-menu nav-fill">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#home-banner">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About Agency</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#team">Our Team</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#blog">Our Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="social-icons">
-                        <span><a href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></span>
-                        <span><a href="javascript:void(0);"><i class="fab fa-twitter"></i></a></span>
-                        <span><a href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></span>
-                        <span><a href="javascript:void(0);"><i class="fab fa-instagram"></i></a></span>
-                    </div>
-                    <p class="rites-res link"><span style="color: #000000;">© 2020 MegaOne.</span> Made with love by Themes Industry</p>
-                </nav>
-            </div>
-        </header>
-    </div>
-</div>
-<!-- END HEADER -->
+				<div class="filtr-item w3layouts agileits portfolio-t" data-category="1, 5" data-sort="Busy streets">
+					<a href="images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-<div id="pagepiling">
+				<div class="filtr-item w3layouts agileits" data-category="2, 5" data-sort="Luminous night">
+					<a href="images/p2.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p2.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-<!-- START BANNER -->
-    <section class="section slide1 p-0" id="home-banner">
-        <div class="slider-area" id="slider-area">
-            <div class="bg-overlay bg-green opacity-8"></div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-6 section1left wow" data-wow-delay=".8s">
-                        <h1 class="main-font font-weight-bold text-white">Web Design <span class="d-block">Agency in NY.</span></h1>
-                        <p class="alt-font text-white my-4">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. </p>
-                        <a href="#about" class="btn btn-medium btn-rounded btn-trans text-capitalize mb-4 mb-md-0">Learn More</a>
-                    </div>
-                    <div class="col-12 col-md-6 section1right wow" data-wow-delay=".8s">
-                        <div class="banner-image">
-                            <svg class="slider-shape" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 700 700">
-                                <g>
-                                    <path data-depth="0.05" id="shape-1" fill="#ffffff" d="M355.43 45.1C398 31.19 442.59 29 484 39.88c55.11 14.5 117.25 54.91 134.57 160.78 0 0 18.6 99.41-12.78 232 0 0-38.65 142.61-90.66 192 0 0-59 61.95-148.78 59.18 0 0-42.15 0-102.34-27.17 0 0-184-88.78-240.17-199S11 211.81 150.69 135.43C241.1 86 314.73 58.41 355.43 45.1z" opacity=".25"></path>
-                                    <path data-depth="0.07" id="shape-2" fill="#ffffff" d="M105.78 387.15c-15.76-38.08-21-79.83-14.15-120.46C100.79 212.61 133 148.14 228 116.38c0 0 89-32 211.88-21.76 0 0 132.5 15.66 181.18 57.51 0 0 60.65 46.59 64.69 131.66 0 0 3.11 39.73-17.22 100.45 0 0-67.27 186.43-163.35 255.44S282.55 687.58 202.89 567c-51.57-78-82.04-143.42-97.11-179.85z" opacity=".25"></path>
-                                    <path data-depth="0.09" id="shape-3" fill="#ffffff" d="M112.59 129.56c18.72-39.73 47.85-73.83 84.82-97.56 49.2-31.55 123.12-52.4 216.29-.29 0 0 89.1 47.22 169.11 151.43 0 0 82.67 115.68 84.6 184.07 0 0 6.77 81.22-57.4 145.42 0 0-29.09 30.94-91.54 58.46 0 0-195.21 80.68-318.52 54.43S2.54 484.38 40.43 335.12C65 238.51 94.68 167.58 112.59 129.56z" opacity=".25"></path>
-                                    <path id="shape-4" d="M129.39 153.77C146.74 117 173.73 85.35 208 63.38c45.59-29.25 114.09-48.57 200.42-.28 0 0 82.56 43.75 156.7 140.31 0 0 76.61 107.2 78.4 170.57 0 0 6.27 75.26-53.19 134.75 0 0-27 28.67-84.82 54.17 0 0-180.89 74.76-295.15 50.43S27.41 482.55 62.52 344.24c22.74-89.52 50.27-155.24 66.87-190.47z" opacity="0"></path>
-                                    <clippath id="shape-img">
-                                        <use xlink:href="#shape-4" style="overflow:visible;"></use>
-                                    </clippath>
-                                </g>
-                                <!--Change Image path here-->
-                                <image data-depth="0.1" clip-path="url(#shape-img)" height="100%" width="100%" xlink:href="static/image/slider-img.png"></image>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END BANNER -->
+				<div class="filtr-item w3layouts agileits" data-category="1, 4" data-sort="City wonders">
+					<a href="images/p3.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p3.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-<!-- START ABOUT -->
-    <section class="section slide2 about" id="about">
-        <div class="bg-overlay bg-pink opacity-8"></div>
-        <div class="container expand-container">
-            <div class="col-12 px-0 section-heading about-fadeIn wow" data-wow-delay=".5s">
-                <h2 class="main-font">MegaOne - A Creative <span class="d-block">Web Design Agency located in</span> <span class="d-block">NewYork, USA</span></h2>
-            </div>
-            <div class="row pb-5">
-                <!-- Feature Box -->
-                <div class="col-12 col-md-3 about-zoom1In wow" data-wow-delay=".2s">
-                    <div class="feature-item text-center text-md-left">
-                        <i class="las la-laptop f-icon"></i>
-                        <h5 class="title main-font mt-1">Web Design</h5>
-                        <p class="alt-font mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
-                    </div>
-                </div>
-                <!-- Feature Box -->
-                <div class="col-12 col-md-3 about-zoom2In wow" data-wow-delay=".4s">
-                    <div class="feature-item text-center text-md-left">
-                        <i class="las la-pen-fancy f-icon"></i>
-                        <h5 class="title main-font mt-1">Logo Designs</h5>
-                        <p class="alt-font mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
-                    </div>
-                </div>
-                <!-- Feature Box -->
-                <div class="col-12 col-md-3 about-zoom3In wow" data-wow-delay=".6s">
-                    <div class="feature-item text-center text-md-left">
-                        <i class="las la-digital-tachograph f-icon"></i>
-                        <h5 class="title main-font mt-1">SEO Marketing</h5>
-                        <p class="alt-font mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
-                    </div>
-                </div>
-                <!-- Feature Box -->
-                <div class="col-12 col-md-3 about-zoom4In wow" data-wow-delay=".8s">
-                    <div class="feature-item text-center text-md-left">
-                        <i class="las la-comment f-icon"></i>
-                        <h5 class="title main-font mt-1">Digital Services</h5>
-                        <p class="alt-font mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="box position-relative about-zoom5In wow" data-wow-delay=".5s">
-                <div class="box-overlay"></div>
-                <div class="row align-items-center">
-                    <div class="col-12 col-md-7 col-lg-9">
-                        <h2 class="main-font">Let’s Get Started</h2>
-                        <p class="py-4 py-md-0">Lorem ipsum is simply dummy text of the printing and typesetting. Lorem Ipsum has been the industry’s standard dummy. </p>
-                    </div>
-                    <div class="col-12 col-md-5 col-lg-3 text-center">
-                        <a href="#contact" class="btn btn-medium btn-rounded btn-trans text-capitalize">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END ABOUT -->
+				<div class="filtr-item w3layouts agileits" data-category="3" data-sort="In production">
+					<a href="images/p4.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p4.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-<!-- START TEAM -->
-    <section class="section slide3 team" id="team">
-        <div class="bg-overlay bg-yellow opacity-8"></div>
-        <div class="container expand-container">
-            <div class="row align-items-center mb-3 mb-md-5 section-heading">
-                <div class="col-12 col-md-6 section3left wow" data-wow-delay=".8s">
-                    <h2 class="main-font">Let’s Meet <span class="d-block">Our Creative Team</span> <span class="d-block">Working 24/7</span></h2>
-                </div>
-                <div class="col-12 col-md-6 section3right wow" data-wow-delay=".8s">
-                    <div class="row my-4 my-md-0">
-                        <!-- Counter -->
-                        <div class="col-12 col-md-4">
-                            <div class="parallax-box text-white">
-                                <h2 class="count">456</h2>
-                                <h5>Happy Clients</h5>
-                            </div>
-                        </div>
-                        <!-- Counter -->
-                        <div class="col-12 col-md-4">
-                            <div class="parallax-box text-white">
-                                <h2 class="count">599</h2>
-                                <h5>Finished Projects</h5>
-                            </div>
-                        </div>
-                        <!-- Counter -->
-                        <div class="col-12 col-md-4">
-                            <div class="parallax-box text-white">
-                                <h2 class="count">780</h2>
-                                <h5>Employees</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+				<div class="filtr-item w3layouts agileits" data-category="3, 4" data-sort="Industrial site">
+					<a href="images/p5.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p5.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-            <!--Team-->
-            <div class="row team-fade wow" data-wow-delay=".8s">
-                <div class="col-sm-12">
-                    <div id="team-slider" class="owl-carousel owl-theme wow fadeInUp">
-                        <!--Team Item-->
-                        <div class="team-box item">
-                            <!--Team Image-->
-                            <div class="team-image">
-                                <img src="static/picture/team-img1.jpg" alt="image">
-                            </div>
-                            <!--Team Text-->
-                            <div class="team-text">
-                                <h5 class="main-font">Chris Ronaldo</h5>
-                                <span class="alt-font">Owner / Co-founder</span>
-                                <div class="team-social">
-                                    <ul class="list-unstyled">
-                                        <li><a class="facebook-bg-hvr" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a class="twitter-bg-hvr" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a class="google-bg-hvr" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-                                        <li><a class="linkedin-bg-hvr" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team Item-->
-                        <div class="team-box item">
-                            <!--Team Image-->
-                            <div class="team-image">
-                                <img src="static/picture/team-img2.jpg" alt="image">
-                            </div>
-                            <!--Team Text-->
-                            <div class="team-text">
-                                <h5 class="main-font">Chris Jerico</h5>
-                                <span class="alt-font">Content Writer</span>
-                                <div class="team-social">
-                                    <ul class="list-unstyled">
-                                        <li><a class="facebook-bg-hvr" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a class="twitter-bg-hvr" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a class="google-bg-hvr" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-                                        <li><a class="linkedin-bg-hvr" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team Item-->
-                        <div class="team-box item">
-                            <!--Team Image-->
-                            <div class="team-image">
-                                <img src="static/picture/team-img3.jpg" alt="image">
-                            </div>
-                            <!--Team Text-->
-                            <div class="team-text">
-                                <h5 class="main-font">James Clark</h5>
-                                <span class="alt-font">Marketing Head</span>
-                                <div class="team-social">
-                                    <ul class="list-unstyled">
-                                        <li><a class="facebook-bg-hvr" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a class="twitter-bg-hvr" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a class="google-bg-hvr" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-                                        <li><a class="linkedin-bg-hvr" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team Item-->
-                        <div class="team-box item">
-                            <!--Team Image-->
-                            <div class="team-image">
-                                <img src="static/picture/team-img-4.jpg" alt="image">
-                            </div>
-                            <!--Team Text-->
-                            <div class="team-text">
-                                <h5 class="main-font">William Smith</h5>
-                                <span class="alt-font">HR Manager</span>
-                                <div class="team-social">
-                                    <ul class="list-unstyled">
-                                        <li><a class="facebook-bg-hvr" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a class="twitter-bg-hvr" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a class="google-bg-hvr" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-                                        <li><a class="linkedin-bg-hvr" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Team Item-->
-                        <div class="team-box item">
-                            <!--Team Image-->
-                            <div class="team-image">
-                                <img src="static/picture/team-img-5.jpg" alt="image">
-                            </div>
-                            <!--Team Text-->
-                            <div class="team-text">
-                                <h5 class="main-font">Ella Anderson</h5>
-                                <span class="alt-font">Sales Executive</span>
-                                <div class="team-social">
-                                    <ul class="list-unstyled">
-                                        <li><a class="facebook-bg-hvr" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li><a class="twitter-bg-hvr" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li><a class="google-bg-hvr" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-                                        <li><a class="linkedin-bg-hvr" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END TEAM -->
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Peaceful lake">
+					<a href="images/p6.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p6.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-<!-- START PORTFOLIO -->
-    <section class="section slide4 portfolio-bg" id="portfolio">
-        <div class="bg-overlay text-light-black opacity-8"></div>
-        <div class="container">
-            <div class="row align-items-center section-heading">
-                <div class="col-12 col-md-6 main-heading section4left wow" data-wow-delay=".8s">
-                    <h2 class="main-font">Portfolio <span class="d-block">Our Creative Work</span></h2>
-                </div>
-                <div class="col-12 col-md-6 section4right wow" data-wow-delay=".8s">
-                    <div class="row my-4 my-md-0">
-                        <!-- Counter -->
-                        <div class="col-12 col-md-4">
-                            <div class="parallax-box text-white">
-                                <h2 class="portfolio-counter">456</h2>
-                                <h5>Happy Clients</h5>
-                            </div>
-                        </div>
-                        <!-- Counter -->
-                        <div class="col-12 col-md-4">
-                            <div class="parallax-box text-white">
-                                <h2 class="portfolio-counter">599</h2>
-                                <h5>Finished Projects</h5>
-                            </div>
-                        </div>
-                        <!-- Counter -->
-                        <div class="col-12 col-md-4">
-                            <div class="parallax-box text-white">
-                                <h2 class="portfolio-counter">780</h2>
-                                <h5>Hours Worked</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Portfolio -->
-            <div class="row portfolio-fade wow" data-wow-delay=".8s">
-                <div class="col-sm-12">
-                    <div class="team-classic owl-team owl-carousel text-center">
-                        <!-- Item 1 -->
-                        <div class="item">
-                            <div class="team-data-img">
-                                <a href="static/file/portfolio-img-5.jpg" data-fancybox="portfolio-images">
-                                    <div class="single-work">
-                                        <img src="static/picture/portfolio-img-1.jpg" alt="team" class="img-responsive" data-no-retina="">
-                                        <div class="overlay-text center-block">
-                                            <div class="cases-image-inner">
-                                                <span class="cases-line top"></span>
-                                                <span class="cases-line top-right"></span>
-                                                <span class="cases-line bottom"></span>
-                                                <span class="cases-line bottom-left"></span>
-                                                <div class="image-overlay">
-                                                    <div class="search-icon"><i class="fa fa-search"></i></div>
-                                                    <h6 class="text-white text-uppercase alt-font">View Project</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="portfolio-content">
-                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Website for Clothing Brand</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="item">
-                            <div class="team-data-img">
-                                <a href="javascript:;" data-fancybox="portfolio-images">
-                                    <div class="single-work">
-                                        <img src="static/picture/portfolio-img-1.jpg" alt="team" class="img-responsive" data-no-retina="">
-                                        <div class="overlay-text center-block">
-                                            <div class="cases-image-inner">
-                                                <span class="cases-line top"></span>
-                                                <span class="cases-line top-right"></span>
-                                                <span class="cases-line bottom"></span>
-                                                <span class="cases-line bottom-left"></span>
-                                                <div class="image-overlay">
-                                                    <div class="search-icon"><i class="fa fa-play"></i></div>
-                                                    <h6 class="text-white text-uppercase alt-font">Launch Video</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="portfolio-content">
-                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Website for Designing Brand</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="item">
-                            <div class="team-data-img">
-                                <a href="static/picture/portfolio-img-3.jpg" data-fancybox="portfolio-images">
-                                    <div class="single-work">
-                                        <img src="static/picture/portfolio-img-3.jpg" alt="team" class="img-responsive" data-no-retina="">
-                                        <div class="overlay-text center-block">
-                                            <div class="cases-image-inner">
-                                                <span class="cases-line top"></span>
-                                                <span class="cases-line top-right"></span>
-                                                <span class="cases-line bottom"></span>
-                                                <span class="cases-line bottom-left"></span>
-                                                <div class="image-overlay">
-                                                    <div class="search-icon"><i class="fa fa-plus"></i></div>
-                                                    <h6 class="text-white text-uppercase alt-font">Show Image</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="portfolio-content">
-                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Website for Digital Services</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item 4 -->
-                        <div class="item">
-                            <div class="team-data-img">
-                                <a href="static/picture/portfolio-img-3.jpg" data-fancybox="portfolio-images">
-                                    <div class="single-work">
-                                        <img src="static/picture/portfolio-img-3.jpg" alt="team" class="img-responsive" data-no-retina="">
-                                        <div class="overlay-text center-block">
-                                            <div class="cases-image-inner">
-                                                <span class="cases-line top"></span>
-                                                <span class="cases-line top-right"></span>
-                                                <span class="cases-line bottom"></span>
-                                                <span class="cases-line bottom-left"></span>
-                                                <div class="image-overlay">
-                                                    <div class="search-icon"><i class="fa fa-search"></i></div>
-                                                    <h6 class="text-white text-uppercase alt-font">View Latest Work</h6>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="portfolio-content">
-                                    <h5 class="text-yellow main-font mb-2 text-uppercase">Website for SEO Marketing</h5>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="circle ini-customPrevBtn" id="team-circle-left">
-                        <i class="lni-chevron-left"></i>
-                    </a>
-                    <a class="circle ini-customNextBtn" id="team-circle-right">
-                        <i class="lni-chevron-right"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END PORTFOLIO -->
+				<div class="filtr-item w3layouts agileits" data-category="1, 5" data-sort="City lights">
+					<a href="images/p7.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p7.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-<!-- START BLOG -->
-    <section class="section slide6 blog-bg" id="blog">
-        <div class="bg-overlay bg-blue opacity-8"></div>
-        <div class="container expand-container">
-            <div class="row align-items-center section-heading">
-                <div class="col-12 col-md-6 main-heading section5left wow" data-wow-delay=".8s">
-                    <h2 class="main-font">Read the Blog<span class="d-block">Web Design Trends</span> <span class="d-block">Tools & Tips</span></h2>
-                </div>
-                <div class="col-12 col-md-6 section5right wow" data-wow-delay=".8s">
-                    <div class="owl-testimonial owl-carousel">
-                        <!-- Item 1 -->
-                        <div class="item">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-8 offset-md-1">
-                                    <div class="icon-quotes-left mb-3"><i class="fas fa-quote-left"></i></div>
-                                    <div class="description text-center text-md-right">
-                                        <p class="text-white paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu. Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <div class="icon-quotes-right mt-md-3"><i class="fas fa-quote-right"></i></div>
-                                </div>
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p8.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p8.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
 
-                                <div class="col-12 col-md-3">
-                                    <div class="testimonial-img">
-                                        <span data-tootik="Sara Jones" data-tootik-conf="top dark square shadow">
-                                            <img src="static/picture/testimonial-img-1.png" alt="student img">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                         </div>
-                        <!-- Item 2 -->
-                        <div class="item">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-8 offset-md-1">
-                                    <div class="icon-quotes-left mb-3"><i class="fas fa-quote-left"></i></div>
-                                    <div class="description text-center text-md-right">
-                                        <p class="text-white paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu. Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <div class="icon-quotes-right mt-md-3"><i class="fas fa-quote-right"></i></div>
-                                </div>
+				<div class="filtr-item w3layouts agileits" data-category="2, 4" data-sort="Dreamhouse">
+					<a href="images/p1.jpg" class="b-link-stripe w3layouts agileits b-animate-go thickbox">
+						<figure>
+							<img src="images/p1.jpg" class="img-responsive w3layouts agileits" alt="W3layouts Agileits">
+							<figcaption>
+								<h3>Games <span>Hub</span></h3>
+							</figcaption>
+						</figure>
+					</a>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<!-- //portfolio -->
+	<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+					<h4 class="modal-title">Games <span>Hub</span></h4>
+				</div> 
+				<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="images/1.jpg" alt="" />
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //modal -->
+	<!-- testimonial -->
+	<div class="jarallax testimonial" id="testimonial">
+		<div class="testimonial-dot">
+			<div class="container">
+				<div class="agileits-title testimonial-heading"> 
+					<h3>Testimonial</h3> 
+				</div>
+				<div class="w3-agile-testimonial">
+					<div class="slider">
+						<div class="callbacks_container">
+							<ul class="rslides callbacks callbacks1" id="slider3">
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts3.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Nunc interdum elit nec sapien vehicula, ut blandit nulla ultrices. Sed ullamcorper metus eget efficitur rutrum. Aliquam a nunc odio. Aenean fermentum finibus efficitur.</p>
+										<h5>Peter Guptill</h5>
+										<h6>Proin blandit</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts3.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Morbi est est, mollis id diam a, pellentesque dignissim lorem. Sed malesuada sed lacus sit amet vestibulum. Sed nibh purus, egestas eu orci vel, mollis interdum orci.</p>
+										<h5>Mary Jane</h5>
+										<h6>Lorem ipsum</h6>
+									</div>
+								</li>
+								<li>
+									<div class="testimonial-img-grid">
+										<div class="testimonial-img t-img1">
+											<img src="images/ts3.jpg" alt="" />
+										</div>
+										<div class="testimonial-img">
+											<img src="images/ts1.jpg" alt="" />
+										</div>
+										<div class="testimonial-img t-img2">
+											<img src="images/ts2.jpg" alt="" />
+										</div>
+										<div class="clearfix"> </div>
+									</div>
+									<div class="testimonial-img-info">
+										<p>Proin blandit rhoncus metus porta tristique. Praesent suscipit in erat a tempor. Nullam tempor lectus ex, a auctor orci ultricies ac. Mauris sapien neque, condimentum sit</p>
+										<h5>Steven Wilson</h5>
+										<h6>Proin blandit</h6>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="clearfix"> </div>
+						<script>
+									// You can also use "$(window).load(function() {"
+									$(function () {
+									  // Slideshow 4
+									  $("#slider3").responsiveSlides({
+										auto: true,
+										pager:false,
+										nav:false,
+										speed: 500,
+										namespace: "callbacks",
+										before: function () {
+										  $('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+										  $('.events').append("<li>after event fired.</li>");
+										}
+									  });
+								
+									});
+						</script>
+						<!--banner Slider starts Here-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //testimonial -->
+	<!-- team -->
+	<div class="team" id="team">
+		<div class="container">
+			<div class="agileits-title"> 
+				<h3>Amazing Team</h3> 
+			</div>
+			<div class="agileits-team-grids">
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t1.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Peter Parker</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t2.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Johan Botha</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t3.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Justo Congue</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 agileits-team-grid">
+					<div class="team-info">
+						<img src="images/t4.jpg" alt="">
+						<div class="team-caption"> 
+							<h4>Steven Wilson</h4>
+							<p>Fusce laoreet</p>
+							<ul>
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+	<!-- blog -->
+	<div id="blog" class="blog">
+		<div class="container"> 
+			<div class="agileits-title">
+				<h3>Our Blog</h3>
+			</div> 
+			<div class="wthree-blog-grids">
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>24/01</h4>
+						<ul>
+							<li>Posted : <a href="#">Admin</a></li>
+							<li>Likes : 31<li>
+							<li>Comments : (4)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque imperdiet luctus gravida.</a>
+						<p>Sed ut feugiat felis. Morbi tempor ut nibh id consectetur. Morbi turpis arcu, interdum at feugiat non, iaculis id dui. Cras vestibulum dapibus volutpat. Fusce id molestie mauris, nec pulvinar nibh. </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-6 w3-agileits-blog-grid">
+					<div class="col-sm-4 col-xs-3 blog-left">
+						<h4>09/12</h4>
+						<ul>
+							<li>Posted : <a href="#">Admin</a></li>
+							<li>Likes : 80<li>
+							<li>Comments : (8)</li>
+						</ul>
+					</div>
+					<div class="col-sm-8 col-xs-9 blog-right">
+						<a href="#" data-toggle="modal" data-target="#myModal">Etiam ut nibh quis magna placerat euismod ac id eros. Cras eleifend nulla vel eros blandit.</a>
+						<p>Duis sodales eleifend laoreet. Vestibulum luctus venenatis massa, in vulputate mi porta ac. Maecenas sollicitudin eros lectus, a rutrum nisi vulputate quis. Proin tempus, lectus vitae gravida</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //blog -->
+	<!-- mail -->
+	<div class="mail" id="mail">
+		<div class="container">
+			<div class="agileits-title">
+				<h3>Mail Us</h3>
+			</div> 
+			<div class="w3_mail_grids">
+				<form action="#" method="post">
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-10" name="Name" placeholder="Your Name" required=""/>
+						<label class="input__label input__label--jiro" for="input-10">
+							<span class="input__label-content input__label-content--jiro">Your Name</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="email" id="input-11" name="Email" placeholder="Your Email Address" required=""/>
+						<label class="input__label input__label--jiro" for="input-11">
+							<span class="input__label-content input__label-content--jiro">Your Email</span>
+						</label>
+					</span>
+					<span class="input input--jiro">
+						<input class="input__field input__field--jiro" type="text" id="input-12" name="Phone Number" placeholder="Phone Number" required=""/>
+						<label class="input__label input__label--jiro" for="input-12">
+							<span class="input__label-content input__label-content--jiro">Phone Number</span>
+						</label>
+					</span>
+					<textarea name="Message" placeholder="Message..." required=""></textarea>
+					<input type="submit" value="Submit">
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/classie.js"></script>
+	<script>
+			(function() {
+				// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
+				if (!String.prototype.trim) {
+					(function() {
+						// Make sure we trim BOM and NBSP
+						var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
+						String.prototype.trim = function() {
+							return this.replace(rtrim, '');
+						};
+					})();
+				}
 
-                                <div class="col-12 col-md-3">
-                                    <div class="testimonial-img">
-                                        <span data-tootik="Danial Bryan" data-tootik-conf="top dark square shadow">
-                                            <img src="static/picture/testimonial-img-2.png" alt="student img">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="item">
-                            <div class="row align-items-center">
-                                <div class="col-12 col-md-8 offset-md-1">
-                                    <div class="icon-quotes-left mb-3"><i class="fas fa-quote-left"></i></div>
-                                    <div class="description text-center text-md-right">
-                                        <p class="text-white paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu. Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                    <div class="icon-quotes-right mt-md-3"><i class="fas fa-quote-right"></i></div>
-                                </div>
+				[].slice.call( document.querySelectorAll( 'input.input__field' ) ).forEach( function( inputEl ) {
+					// in case the input is already filled..
+					if( inputEl.value.trim() !== '' ) {
+						classie.add( inputEl.parentNode, 'input--filled' );
+					}
 
-                                <div class="col-12 col-md-3">
-                                    <div class="testimonial-img">
-                                        <span data-tootik="Dean Ambrose" data-tootik-conf="top dark square shadow">
-                                            <img src="static/picture/testimonial-img-3.png" alt="student img">
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--Row-->
-            <div class="row">
-                <!--News Item-->
-                <div class="col-12 col-md-4 blog-left wow" data-wow-delay=".6s">
-                    <div class="news-item">
-                        <div class="image-holder-gallary">
-                            <img alt="image" src="static/picture/blog-img-1.jpg">
-                        </div>
-                        <div class="news-text-box">
-                            <a href="#"><h4 class="news-title main-font">Design Trends 2020</h4></a>
-                            <p class="para alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu. Lorem ipsum dolor sit amet.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--News Item-->
-                <div class="col-12 col-md-4 blog-center wow" data-wow-delay=".6s">
-                    <div class="news-item">
-                        <div class="image-holder-gallary">
-                            <img alt="image" src="static/picture/blog-img-2.jpg">
-                        </div>
-                        <div class="news-text-box">
-                            <a href="#"><h4 class="news-title main-font">SEO & Marketing Tips</h4></a>
-                            <p class="para alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                </div>
-                <!--News Item-->
-                <div class="col-12 col-md-4 blog-right wow" data-wow-delay=".6s">
-                    <div class="news-item">
-                        <div class="image-holder-gallary">
-                            <img alt="image" src="static/picture/blog-img-3.jpg">
-                        </div>
-                        <div class="news-text-box">
-                            <a href="#"><h4 class="news-title main-font">How to Make Website</h4></a>
-                            <p class="para alt-font">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mauris arcu. Lorem ipsum dolor sit amet, Nunc mauris arcu.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END BLOG -->
+					// events:
+					inputEl.addEventListener( 'focus', onInputFocus );
+					inputEl.addEventListener( 'blur', onInputBlur );
+				} );
 
-<!-- START CONTACT -->
-    <section class="section slide5 contact-sec" id="contact">
-        <div class="bg-overlay bg-red opacity-9"></div>
-        <div class="container expand-container">
-            <div class="row">
-                <div class="col-12 col-lg-7 section6left wow" data-wow-delay=".8s">
-                    <h4 class="heading text-center text-md-left main-font">Questions?<span class="d-block">Let's Get In Touch</span></h4>
-                    <form class="row contact-form wow fadeInLeft" id="contact-form-data">
-                        <div class="col-12 col-lg-8" id="result"></div>
-                        <div class="col-12 col-lg-8">
-                            <input type="text" name="userName" placeholder="Name" class="form-control">
-                            <input type="text" name="userPhone" placeholder="Contact No" class="form-control">
-                            <input type="email" name="userEmail" placeholder="Email" class="form-control">
-                            <textarea class="form-control" name="userMessage" rows="6" placeholder="Type Your Message Here"></textarea>
-                            <a href="javascript:void(0);" class="btn btn-medium btn-rounded btn-white rounded-pill w-100 contact_btn main-font">Submit Information</a>
-                        </div>
-                    </form>
-                </div>
-                <div class="col-12 col-lg-5 section6left wow text-center text-lg-left d-flex align-items-center" data-wow-delay=".8s">
-                    <div class="contact-details wow fadeInRight">
-                        <h4 class="heading main-font">Office Location</h4>
-                        <p class="text alt-font">There are many variations of passages of Lorem Ipsum available, but the majority have suffered .</p>
-                        <ul>
-                            <li><i aria-hidden="true" class="fas fa-map-marker-alt"></i> 123 Park Avenue, New York, United States </li>
-                            <li><i aria-hidden="true" class="fas fa-phone-volume"></i>
-                                <span>+1 631 1234 5678</span>
-                                <span>+1 631 1234 5678</span>
-                            </li>
-                            <li><i aria-hidden="true" class="fas fa-paper-plane"></i>email@website.com</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-<!-- END CONTACT -->
-</div>
+				function onInputFocus( ev ) {
+					classie.add( ev.target.parentNode, 'input--filled' );
+				}
 
-<!-- Start Copyright -->
-<div class="slider-bottom cursor-light">
-    <div class="slider-social side-icons cursor-light">
-        <ul class="list-unstyled">
-            <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-twitter"></i></a></li>
-            <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-linkedin-in"></i></a></li>
-            <li class="animated-wrap"><a class="animated-element" href="javascript:void(0);"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </div>
-    <div class="slider-copyright text-white link">Copyright &copy; 2022.Company name All rights reserved.<a target="_blank" href="https://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></div>
-</div>
-<!-- End Copyright -->
-
-<!--Animated Cursor-->
-<div id="animated-cursor">
-    <div id="cursor">
-        <div id="cursor-loader"></div>
-    </div>
-</div>
-
-<!-- JavaScript -->
-<script src="static/js/bundle.min.js"></script>
-<script src="static/js/wow.min.js"></script>
-<!-- Plugin Js -->
-<script src="static/js/jquery.appear.js"></script>
-<script src="static/js/jquery.fancybox.min.js"></script>
-<script src="static/js/owl.carousel.min.js"></script>
-<!-- CUSTOM JS -->
-<script src="static/js/jquery.pagepiling.min.js"></script>
-<script src="static/js/TweenMax.min.js"></script>
-<script src="static/js/contact_us.js"></script>
-<script src="static/js/script.js"></script></body></html>
+				function onInputBlur( ev ) {
+					if( ev.target.value.trim() === '' ) {
+						classie.remove( ev.target.parentNode, 'input--filled' );
+					}
+				}
+			})();
+		</script>
+	<!-- //mail -->
+	<!-- contact -->
+	<div id="contact" class="contact">
+		<div class="contact-row agileits-w3layouts">  
+			<div class="col-md-5 contact-w3lsleft map">
+				<!---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.948805392833!2d-73.99619098458929!3d40.71914347933105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1479793484055"></iframe>--->
+			</div>
+			<div class="col-md-7 contact-w3lsright">
+				<h6>Sed interdum interdum accumsan nec purus ac orci finibus facilisis sapien Sed interdum . </h6>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Visit Us</h5>
+						<p>Broome St, Canada, <br>NY 10002, New York </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row w3-agileits">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Mail Us</h5>
+						<p><a href="mailto:info@example.com"> mail@example1.com </a></p>
+						<p><a href="mailto:info@example.com"> mail@example2.com</a></p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Call Us</h5>
+						<p>+01 222 333 4444<br></p>
+						<p>+01 222 333 5555</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div> 
+				<div class="col-xs-6 address-row">
+					<div class="col-xs-2 address-left">
+						<span class="glyphicon glyphicon-time" aria-hidden="true"></span>
+					</div>
+					<div class="col-xs-10 address-right">
+						<h5>Working Hours</h5>
+						<p>Mon - Fri : 8:00 am to 10:30 pm<br>
+						Sat - Sun : 9:00 am to 11:30 pm</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>	
+	</div>
+	<!-- //contact -->  
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed"> 
+					<div class="footer-title">
+						<h3>About Us</h3>
+					</div> 
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="col-md-4 amet-sed amet-medium">
+					<div class="footer-title">
+						<h3>Twitter Feed</h3>
+					</div> 
+					<p><a href="#">http://example.com</a> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tincidunt lorem sed velit fermentum eget placerat. </p>
+					<p><a href="#">http://mail.com</a> Sed tincidunt lorem sed velit fermentum eget placerat. Lorem ipsum dolor sit, consectetur adipiscing elit. </p>
+				</div>
+				<div class="col-md-4 amet-sed ">
+					<div class="footer-title">
+						<h3>Follow Us</h3>
+					</div> 
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+					<div class="support">
+						<form action="#" method="post">
+							<input type="email" placeholder="Enter email...." required=""> 
+							<input type="submit" value="Subscribe" class="botton">
+						</form> 
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //footer --> 
+	<!-- copyright -->
+	<div class="copyright">
+		<div class="container">
+			<p class="footer-class">Copyright &copy; 2017.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">&#x7F51;&#x9875;&#x6A21;&#x677F;</a></p>
+		</div>
+	</div>
+	<!-- //copyright -->
+	<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+		/* init Jarallax */
+		$('.jarallax').jarallax({
+			speed: 0.5,
+			imgWidth: 1366,
+			imgHeight: 768
+		})
+	</script>
+	<script src="js/responsiveslides.min.js"></script>
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+	<!-- //here ends scrolling icon -->
+	<!-- Tabs-JavaScript -->
+	<script src="js/jquery.filterizr.js"></script>
+		<script src="js/controls.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-container').filterizr();
+			});
+		</script>
+	<!-- //Tabs-JavaScript -->
+	<!-- PopUp-Box-JavaScript -->
+		<script src="js/jquery.chocolat.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('.filtr-item a').Chocolat();
+			});
+		</script>
+	<!-- //PopUp-Box-JavaScript -->
+</body>	
+</html>
